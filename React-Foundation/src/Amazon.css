@@ -1,0 +1,33 @@
+.card-container{
+    border: 4px solid blue;
+    background-color: aqua;
+    margin-bottom: 8px;
+    font: 1em sans-serif;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 5px 0 8px 0;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    height: 150px;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+   
+}
+
+.price{
+    background-color: rgb(231, 174, 15);
+    padding: 3.5px;
+    font-weight: 700;
+    color: #000;
+    height: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,30 @@
+.comment{
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgb(221, 221, 27);
+     padding: 1.1rem;
+    text-indent: 1cm;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+
+.comment:hover{
+    box-shadow: 0 0 10px rgb(219, 27, 14);
+    cursor: pointer;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+/* .comment .rate{
+    color: yellow;
+    background-color: black;
+} */
+
+ .comment-btn:is(:hover, :focus){
+    background-color: yellow;
+    border-radius: 14px;
+}
