@@ -5,3 +5,4 @@
 4) Weather Widget 🌡️☁️
 5) React Forms- useState, useEffect  (Formik for validations)
 6) Lottery Ticket Generator 🎟️
+7) Reaxt-redux- Slice, Reducers, Actions 🏟️
