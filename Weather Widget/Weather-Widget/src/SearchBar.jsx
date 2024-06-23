@@ -39,6 +39,7 @@ export default function SearchBar({ updateInfo }){
   
     let handleChange=(event)=>{
         setCity(event.target.value);
+        setError('');
     }
 
     let handleSubmit=async(event)=>{
@@ -78,10 +79,8 @@ export default function SearchBar({ updateInfo }){
 
             <div className="error">
                 {
-                    (error && <h4 style={{color: 'red'}}><b>Invalid Input!</b></h4> )
+                    (error) ? <h4 style={{color: 'red'}}><b>Invalid Input!</b></h4> : "" 
                 }
-                
-
             </div>
          
         </div>

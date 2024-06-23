@@ -18,8 +18,8 @@ export default function WeatherApp(){
 
     }
     return(
-        <div>
-            <h2>Weather App by 7\|/1L|G|-|7</h2>
+        <div className="weather-app">
+            <h2>Weather App</h2>
             <SearchBar updateInfo={updateInfo}/> <br />
             <WeatherWidget  weatherInfo={weatherData}/>
         </div>
